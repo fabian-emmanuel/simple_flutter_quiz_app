@@ -22,7 +22,7 @@ class Result extends StatelessWidget {
       child: Column(
         children: [
           Text(
-            resultPhrase + resultScore.toString(),
+            resultPhrase + resultScore.toString() + '\n\u{1F339}',
             style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             textAlign: TextAlign.center,
           ),
